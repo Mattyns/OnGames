@@ -1,0 +1,278 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    height: 84px;
+}
+
+header > h1 {
+    font-size: 3em;
+    padding: 10px;
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+    margin: 0;
+    
+    outline: none;
+    
+}
+
+nav {
+    visibility: hidden;
+    top: 50px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.906);
+    height: fit-content;
+    position: relative;
+    transform: translateX(0) translateY(0);
+    transition: transform 1s ease-in-out;
+}
+
+nav > a {
+    
+    text-decoration: none;
+    color: aliceblue;
+    margin: 5px 0px;
+}
+
+nav > a:hover {
+    color: brown;
+    font-size: 1.1em;
+}
+
+#fecharmenu {
+    position: relative;
+    top: 50px;
+    display: none;
+    margin: auto;
+    background-color: rgba(165, 42, 42, 0.742);
+    width: 50px;
+    border-radius: 0px 0px 10px 10px;
+    cursor: pointer;
+    transition: transform 1s ease-in-out;
+    transform: translateX(0) translateY(28px);
+}
+
+#fecharmenu:hover {
+    background-color: brown;
+
+}
+
+#fecharmenu > i {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+#abrirmenu {
+    position: relative;
+    top: 50px;
+    margin: auto;
+    background-color: rgba(244, 244, 244, 0.742);
+    width: 50px;
+    border-radius: 0px 0px 10px 10px;
+    cursor: pointer;
+    transition: transform 1s ease-in-out;
+    transform: translateX(0) translateY(0);
+}
+
+#abrirmenu:hover {
+    background-color: rgb(171, 178, 183);
+    
+
+}
+
+#abrirmenu > i {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+#notidestaque {
+    background-image: url('../img/acs.png');
+    background-position: 30%;
+    background-size: cover;
+    height: 70vh;
+    
+    
+}
+
+#notidestaque > div {
+    background-color: rgba(0, 0, 0, 0.702);
+    width: 45%;
+    position: relative;
+    top: 150px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#notidestaque h1 {
+    color: white;
+}
+
+#notidestaque p {
+    color: white;
+    text-indent: 2em;
+}
+
+#noticias {
+    
+    margin-top: 100px;
+}
+
+#noticias > div {
+    margin: 80px 0px;
+}
+
+#noticias > div:hover {
+    background-color: rgba(24, 23, 23, 0.154);
+}
+
+#noticias > h1 {
+    margin-bottom: -50px;
+    margin-left: 20px;
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#noticias  img {
+    width: 100%;
+
+}
+
+#noticias > div > h2 {
+    color: brown;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+#textnoti {
+    margin: 5px;
+    padding-bottom: 10px;
+    text-indent: 2em;
+}
+
+.vermais {
+    background-color: brown;
+    color: aliceblue;
+    border-radius: 20px;
+    width: 120px;
+    margin: auto;
+    display: flex;
+    position: relative;
+    justify-self: center;
+    height: fit-content;
+    margin: 0px;
+    
+}
+
+.vermais:hover {
+    background-color: rgb(199, 64, 64) !important;
+}
+
+.vermais > p {
+    margin: auto;
+    text-align: center;
+    
+    
+}
+
+#linha {
+    background-color: brown;
+    height: 20px;
+    margin-bottom: 50px;
+}
+
+#rodape {
+    background-color: black;
+}
+
+#info {
+    display: flex;
+    width: fit-content;
+    margin: auto;
+}
+
+#info > div {
+    color: brown;
+    display: grid;
+    margin: 0px 25px;
+    
+}
+
+#info > div > h2 {
+    margin-bottom: 25px;
+}
+
+#info > div > a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#info > div > a:hover {
+    color: brown;
+}
+
+#logofim {
+    padding: 20px 0px;
+}
+
+#logofim > h1 {
+    font-size: 3em;
+    padding: 10px;
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+    margin: 0;
+    text-align: center;
+}
+
+footer {
+    background-color: brown;
+    padding: 20px;
+    color:aliceblue;
+}
+
+.cima {
+    position: fixed;
+    background-color: rgba(165, 42, 42, 0.77);
+    top: 90%;
+    left: 80%;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    
+    
+}
+
+.cima > a {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.cima i {
+    color: aliceblue;
+    font-size: 2em;
+    
+    
+    text-decoration: none;
+    
+}
+
