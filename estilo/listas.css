@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+#listdestaque {
+    background-image: url('../img/split-ws.jpg');
+    background-position: 50%;
+    background-size: cover;
+    height: 70vh;
+    
+    
+}
+
+#listdestaque > div {
+    background-color: rgba(0, 0, 0, 0.702);
+    width: 45%;
+    position: relative;
+    top: 150px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#listdestaque h1 {
+    color: white;
+}
+
+#listdestaque p {
+    color: white;
+    text-indent: 2em;
+}
+
+#listas {
+    margin-top: 100px;
+}
+
+#listas > h1 {
+    margin-bottom: -50px;
+    margin-left: 20px;
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#listas > div {
+    margin: 80px 0px;
+}
+
+#listas > div:hover {
+    background-color: rgba(24, 23, 23, 0.154);
+}
+
+#listas img {
+    width: 100%;
+}
+
+#listas > div > h2 {
+    color: brown;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+#textlist {
+    margin: 5px;
+    padding-bottom: 10px;
+    text-indent: 2em;
+}
